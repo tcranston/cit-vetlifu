@@ -1,0 +1,25 @@
+	<footer>
+ 		<div class="footer-inner"> 
+			<span style="font-size: 16px;">{{ site.title }}</span><br>
+ 			{% if site.footer_summary %}
+ 				<span>{{ site.footer_summary }}</span><br>
+ 			{% endif %}
+ 			{% if site.phone %}
+ 				<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> Phone: {{ site.phone }}
+ 			{% endif %}
+ 			<br>
+ 			{% if site.email %}
+ 				<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Email: {{ site.email }} 
+ 			{% endif %}
+		</div>
+ 		<div class="footer-outter"> © {{  site.time | date: "%Y" }} {{ site.title }}</div>
+	</footer>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+	<script src="{{ "/js/classie.js" | prepend: site.baseurl }}"></script>
+	{% if page.layout == 'homepage' %}
+    	<script src="{{ "/js/cbpAnimatedHeader.js" | prepend: site.baseurl }}"></script>
+    {% endif %}
+	

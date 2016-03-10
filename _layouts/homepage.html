@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    <div class="page_wrapper">
+
+        {% include header.html %}
+        <header id="homepage-main">
+            <div class="container-fluid">
+              <div class="intro-padding">
+                <div class="intro-text panel panel-default col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+                  <div class="intro-lead-in panel-body">
+                  {{ page.site_slogan_1 }}<br>
+                  {{ page.site_slogan_2 }}
+                  </div> 
+                </div>
+              </div>
+            </div>
+        </header>
+        <div class="main_content container-fluid">
+            <div class="row overview">
+                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+                    <div class="text-center center-block">
+                    {{ content }}
+                    </div>
+
+                </div>
+            </div>
+
+            {% if page.treatable_list_title %}
+            <div class="row overview">
+
+                <h2 class="italic text-center">{{ page.treatable_list_title }}</h2>
+                <br />
+                <div class="col-lg-3 col-lg-offset-3 
+                            col-md-3 col-md-offset-3 
+                            col-sm-3 col-sm-offset-3
+                            col-xs-8 col-xs-offset-2">
+                    <ul>
+                    {% for condition in page.treatable_list_left %}
+                        <li>{{ condition.item }}</li>
+                    {% endfor %}
+                    </ul>
+                </div>
+                <div class="clearfix visible-xs-block"></div>
+
+                <div class="col-lg-3 col-lg-offset-0 
+                            col-md-3 col-md-offset-0
+                            col-sm-3 col-sm-offset-0
+                            col-xs-8 col-xs-offset-2">
+                    <ul>
+                    {% for condition in page.treatable_list_right %}
+                        <li>{{ condition.item }}</li>
+                    {% endfor %}
+                    </ul>
+                </div>
+            </div>
+             {% endif %}
+        </div>
+        <div class="row overview hidden-xs">
+                    <div class="text-center col-lg-2 col-md-3 col-sm-3 col-lg-offset-2 col-md-offset-2 col-sm-offset-1 ">
+
+                        <img src="{{ "/images/"  | prepend: site.baseurl | append: page.mini_img_1 }}" alt="horse" class="center-block width140 img-circle">
+                        <!-- <h3 class="section-heading">Horses</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed libero elit, feugiat id dolor eget, tincidunt pretium justo. Sed laoreet ex sit amet tempus egestas. Maecenas molestie dignissim turpis, nec condimentum massa sagittis. </p>  -->
+                    </div>
+
+                    <div class="text-center col-lg-2  col-md-3  col-sm-3 col-sm-3 col-lg-offset-1 ">
+                    <img src="{{ "/images/"  | prepend: site.baseurl | append: page.mini_img_2 }}" alt="dogs" class="center-block width140 img-circle">
+                    <!-- <h3 class="section-heading">Dogs</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed libero elit, feugiat id dolor eget, tincidunt pretium justo. Sed laoreet ex sit amet tempus egestas. Maecenas molestie dignissim turpis, nec condimentum massa sagittis. </p>  -->
+                    </div>
+
+                    <div class="text-center col-lg-2 col-md-3 col-sm-3 col-lg-offset-1">
+                    <img src="{{ "/images/"  | prepend: site.baseurl | append: page.mini_img_3 }}" alt="cat" class="center-block width140 img-circle">
+                    <!-- <h3 class="section-heading">Cats</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed libero elit, feugiat id dolor eget, tincidunt pretium justo. Sed laoreet ex sit amet tempus egestas. Maecenas molestie dignissim turpis, nec condimentum massa sagittis. </p>  -->
+                    </div>
+                </div>
+
+    </div>
+    {% include footer.html %}
+
+  </body>
+
+</html>

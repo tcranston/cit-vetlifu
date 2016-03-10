@@ -1,0 +1,29 @@
+# Site settings
+title: VET LIFU LTD
+email: info@vetlifu.com
+phone: 07866 143896
+description: Therapeutic ultrasound An effective treatment for muscle and joint conditions in dogs, cats and horses.
+keywords: Therapeutic, Ultrasound, Dogs, Cats, Horses, Muscle, Joint, Treatment
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+
+menu:
+  - title: Link
+    url: portfolio
+  - title: Questions
+    url: question
+  - title: Our Team
+    url: /our_team
+  - title: Contact Us
+    url: contact
+
+
+
+# Footer
+footer_summary: In association with HAIFU Medical Technology Co. Ltd
+
+
+
+
+# Build settings
+markdown: kramdown
