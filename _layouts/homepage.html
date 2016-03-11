@@ -7,7 +7,7 @@
 
     <div class="page_wrapper">
 
-        {% include header.html %}
+        {% include nav.html %}
         <header id="homepage-main">
             <div class="container-fluid">
               <div class="intro-padding">
@@ -61,25 +61,23 @@
              {% endif %}
         </div>
         <div class="row overview hidden-xs">
-                    <div class="text-center col-lg-2 col-md-3 col-sm-3 col-lg-offset-2 col-md-offset-2 col-sm-offset-1 ">
+                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+                    <div class="text-center center-block">
 
-                        <img src="{{ "/images/"  | prepend: site.baseurl | append: page.mini_img_1 }}" alt="horse" class="center-block width140 img-circle">
+                        <img src="{{ "/images/"  | prepend: site.baseurl | append: page.mini_img_1 }}" alt="horse" class="margin20 width160 img-circle">
                         <!-- <h3 class="section-heading">Horses</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed libero elit, feugiat id dolor eget, tincidunt pretium justo. Sed laoreet ex sit amet tempus egestas. Maecenas molestie dignissim turpis, nec condimentum massa sagittis. </p>  -->
-                    </div>
 
-                    <div class="text-center col-lg-2  col-md-3  col-sm-3 col-sm-3 col-lg-offset-1 ">
-                    <img src="{{ "/images/"  | prepend: site.baseurl | append: page.mini_img_2 }}" alt="dogs" class="center-block width140 img-circle">
-                    <!-- <h3 class="section-heading">Dogs</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed libero elit, feugiat id dolor eget, tincidunt pretium justo. Sed laoreet ex sit amet tempus egestas. Maecenas molestie dignissim turpis, nec condimentum massa sagittis. </p>  -->
-                    </div>
-
-                    <div class="text-center col-lg-2 col-md-3 col-sm-3 col-lg-offset-1">
-                    <img src="{{ "/images/"  | prepend: site.baseurl | append: page.mini_img_3 }}" alt="cat" class="center-block width140 img-circle">
-                    <!-- <h3 class="section-heading">Cats</h3>
+                        <img src="{{ "/images/"  | prepend: site.baseurl | append: page.mini_img_2 }}" alt="dog" class="margin20 width160 img-circle">
+                        <!-- <h3 class="section-heading">Dogs</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed libero elit, feugiat id dolor eget, tincidunt pretium justo. Sed laoreet ex sit amet tempus egestas. Maecenas molestie dignissim turpis, nec condimentum massa sagittis. </p>  -->
+                        
+                        <img src="{{ "/images/"  | prepend: site.baseurl | append: page.mini_img_3 }}" alt="cat" class="margin20 width160 img-circle">
+                        <!-- <h3 class="section-heading">Cats</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed libero elit, feugiat id dolor eget, tincidunt pretium justo. Sed laoreet ex sit amet tempus egestas. Maecenas molestie dignissim turpis, nec condimentum massa sagittis. </p>  -->
                     </div>
                 </div>
+            </div>
 
     </div>
     {% include footer.html %}

@@ -36,6 +36,7 @@ nav {
     content: "\2b";
 }
 
+
 /* Small to larger devices  (tablets, 768px and up) */
 @media (min-width: 768px) {
 
@@ -181,8 +182,16 @@ header#homepage-main {
 	font-style: italic;;
 }
 
+.margin20 {
+    margin:20px;
+}
+
 .width140 {
 	width: 140px;
+}
+
+.width160 {
+    width: 160px;
 }
 
 
