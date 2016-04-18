@@ -8,14 +8,14 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 menu:
-  - title: Link
-    url: portfolio
+  - title: Home
+    url: /
   - title: Questions
-    url: question
+    url: /questions
   - title: Our Team
     url: /our_team
   - title: Contact Us
-    url: contact
+    url: /contact_us
 
 
 
@@ -23,7 +23,8 @@ menu:
 footer_summary: In association with HAIFU Medical Technology Co. Ltd
 
 
-
+collections:
+- questions
 
 # Build settings
 markdown: kramdown

@@ -22,4 +22,10 @@
 	{% if page.layout == 'homepage' %}
     	<script src="{{ "/js/cbpAnimatedHeader.js" | prepend: site.baseurl }}"></script>
     {% endif %}
+
+    {% if page.layout == 'contact' %}
+    <!-- Contact Form JavaScript -->
+    <script src="{{ "/js/jqBootstrapValidation.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/contact_me.js" | prepend: site.baseurl }}"></script>
+    {% endif %}
 	

@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<div class="row">
+	<h1 class="text-center">{{ page.title }}</h1>
+	{{ content }}
+</div>
+
+<div class="clearfix"></div>
+{% for profile in page.profiles %}
+<div class="row">
+	{{ site.questions | sort: 'title' }}
+	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+		{% for question in site.questions %}
+		<div class="panel panel-default">
+			<div class="panel-heading" role="tab" id="headingOne">
+			  <h4 class="panel-title">
+			    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="">
+			      {{ question.title }}
+			    </a>
+			  </h4>
+			</div>
+			<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne" aria-expanded="true">
+			  <div class="panel-body">
+			     {{ question.content }}
+			  </div>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</div>
+
+ 
