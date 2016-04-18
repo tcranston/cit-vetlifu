@@ -1,5 +1,6 @@
 ---
 layout: all_questions
+header_image: faq.jpg
 title: Questions
 permalink: /questions/
 ---

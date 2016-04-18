@@ -7,14 +7,14 @@ layout: default
 </div>
 
 <div class="clearfix"></div>
-<div class="row">
+<div id="contact" class="row">
       <div class="col-lg-12">
         <form name="sentMessage" id="contactForm">
           <div class="row">
             <div class="col-md-6">
               <div class="form-group">
 		<div class="input-group">
-		<span class="input-group-addon"><i class="fa fa-user fa-fw"></i></span>
+		<span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
                 <input type="text" class="form-control"
                 placeholder="Your Name *" id="name" required
                 data-validation-required-message="Please enter your name.">
@@ -23,7 +23,7 @@ layout: default
               </div>
               <div class="form-group">
 		<div class="input-group">
-		<span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
+		<span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
                 <input type="email" class="form-control"
                 placeholder="Your Email *" id="email" required
                 data-validation-required-message="Please enter your email address.">
@@ -32,7 +32,7 @@ layout: default
               </div>
               <div class="form-group">
 		<div class="input-group">
-		<span class="input-group-addon"><i class="fa fa-phone fa-fw"></i></span>
+		<span class="input-group-addon"><span class="glyphicon glyphicon-earphone"></span></span>
                 <input type="tel"
 		       class="form-control"
 		       placeholder="Your Phone *"
@@ -55,7 +55,7 @@ layout: default
             <div class="clearfix"></div>
             <div class="col-lg-12 text-center">
               <div id="success"></div>
-              <button type="submit" class="btn btn-xl">Send Message</button>
+              <button type="submit" class="btn btn-lg">Send Message</button>
             </div>
           </div>
         </form>
