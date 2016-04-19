@@ -1,5 +1,5 @@
 ---
 title:  "Does it hurt?"
 ---
-Application of ultrasound gel to the treatment area and then a gentle massaging with the probe head.
+Generally not, some animals may feel an odd sensation and might fidget a little until the settings are adjusted to suit them.
 

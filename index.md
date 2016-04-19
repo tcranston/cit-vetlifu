@@ -38,7 +38,7 @@ Therapeutic ultrasound has been recognized as an effective treatment for soft ti
 {::nomarkdown}  
 <br />
 {% for image in page.lifu_images %}
- <img src="{{ "/images/"  | prepend: site.baseurl | append: image.src }}" alt="{{ image.title }}" class="margin20 width160 img-circle">              
+ <img src="{{ "/images/"  | prepend: site.baseurl | append: image.src }}" alt="{{ image.title }}" class="margin20 hp-img-circle img-circle">              
 {% endfor %}
 <br />
 <br />

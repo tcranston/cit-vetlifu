@@ -9,9 +9,9 @@ layout: default
 <div class="clearfix"></div>
 {% for profile in page.profiles %}
 <div class="row">
-	<div class="center-block">
+	<div class="text-center">
 		{% if profile.image %}
-	 	<img src="{{ "/images/"  | prepend: site.baseurl | append: profile.image }}" alt="{{ profile.name }}" class="margin20 width160 img-circle"> 
+	 	<img src="{{ "/images/"  | prepend: site.baseurl | append: profile.image }}" alt="{{ profile.name }}" class=" margin20 profile-img img-circle"> 
 		{% endif %}
 	 	<h3 class="text-center">{{ profile.name }}</h3> 
 	 	{% if profile.qual %}

@@ -194,6 +194,10 @@ header#homepage-main {
     width: 160px;
 }
 
+.profile-img, .hp-img-circle {
+    width: 200px;
+}
+
 
 .section-heading {
 	font-style: italic;
