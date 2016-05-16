@@ -1,6 +1,6 @@
 ---
 layout: contact
-header_image: faq.jpg
+header_image: contactus.jpg
 title: Contact Us
 permalink: /contact_us/
 ---
