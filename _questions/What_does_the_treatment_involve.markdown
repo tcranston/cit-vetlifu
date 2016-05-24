@@ -1,6 +1,6 @@
 ---
 title:  "What does the treatment involve?"
-weight: 1
+weight: 20
 ---
-Application of ultrasound gel to the treatment area and then a gentle massaging with the probe head.
+After an assement of your animal ultrasound gel will be applied to the treatment area and then a gentle massaging with the ultrasound probe.
 

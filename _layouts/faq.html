@@ -23,6 +23,15 @@ layout: default
 			<div id="collapse{{ variable }}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{{ variable }}" aria-expanded="false">
 			  <div class="panel-body">
 			     {{ question.content }}
+
+			     {% if question.files.size > 0 %}
+			     <ul>
+			     	 {% for file in question.files %}
+			     		<li><a href="/files/{{ file.filename}}">
+			     		<span class="glyphicon glyphicon-file" aria-hidden="true"></span> {{ file.name }} </a></li>
+			      	{% endfor %}
+			     </ul>
+			     {% endif %}
 			  </div>
 			</div>
 		</div>
