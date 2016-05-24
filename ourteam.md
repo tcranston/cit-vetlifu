@@ -1,6 +1,6 @@
 ---
 layout: profiles
-header_image: faq.jpg
+header_image: ourteam.jpg
 title: Our Team
 permalink: /our_team/
 
@@ -15,4 +15,4 @@ profiles:
    bio: <p>Becky graduated with a first class degree in Veterinary Nursing Science and has since enjoyed a range of nursing roles as a registered veterinary nurse.  During seven years in practice, she has developed an interest in orthopaedics and pet mobility nurse clinics.  Where mobility is impaired by injury, surgery or old age, Becky finds satisfaction in working with pet owners to make positive changes to their pet's well being.  The underpinning motivation throughout Becky's career has been patient welfare and maximising quality of life wherever she is able to make a difference.</p>
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed libero elit, feugiat id dolor eget, tincidunt pretium justo. Sed laoreet ex sit amet tempus egestas. Maecenas molestie dignissim turpis, nec condimentum massa sagittis id. Vestibulum nec dolor eu diam dapibus dignissim. Donec hendrerit, nunc non tempor tristique, arcu tortor lobortis arcu, id vestibulum dolor lacus ac lectus. Nam scelerisque arcu non rhoncus dignissim. Praesent vitae laoreet lorem.
+Please meet our team. We are both Veterinary professionals who have many years experience working with dogs, cats and horses. In that time we have seen hundreds of cases that we now feel would have benefitted from LIFU treatment and so we are excited to have this opportunity to help your beloved friend.

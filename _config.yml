@@ -9,12 +9,16 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 menu:
   - title: Home
+    meta: VetLIFU Home Page
     url: /
-  - title: Questions
-    url: /questions
+  - title: FAQ
+    meta: Frequently asked questions
+    url: /faq
   - title: Our Team
+    meta: Meet our team
     url: /our_team
   - title: Contact Us
+    meta: Contact the VetLIFU team
     url: /contact_us
 
 

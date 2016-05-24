@@ -1,12 +1,8 @@
 ---
-layout: all_questions
+layout: faq
 header_image: faq.jpg
 title: Questions
-permalink: /questions/
+permalink: /faq/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Here are some answers to a few of the common questions we often get asked, but please feel free to contact us if you want more information.
