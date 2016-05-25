@@ -2,7 +2,12 @@
  		<div class="footer-inner"> 
 			<span style="font-size: 16px;">{{ site.title }}</span><br>
  			{% if site.footer_summary %}
- 				<span>{{ site.footer_summary }}</span><br>
+ 				{% if site.footer_summary_link %}
+ 					<span><a href="{{ site.footer_summary_link }}" title="{{ site.footer_summary }}" target="_blank">{{ site.footer_summary }}</a></span>
+ 				{% else %}
+ 					<span>{{ site.footer_summary }}</span>
+ 				{% endif %}
+ 				<br>
  			{% endif %}
  			{% if site.phone %}
  				<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> Phone: {{ site.phone }}
