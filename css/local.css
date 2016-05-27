@@ -155,7 +155,7 @@ nav {
   background-repeat:no-repeat;
   background-position-y: 40px;
   background-position-x: 50%;
-  display: table;
+  display: block;
   position: relative;
   width: 100%;
   -webkit-background-size: cover;
