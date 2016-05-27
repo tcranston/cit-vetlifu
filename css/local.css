@@ -33,6 +33,10 @@ nav {
 /* Small to larger devices  (tablets, 768px and up) */
 @media (min-width: 768px) {
 
+    header#homepage-main {
+        background-attachment: fixed;
+    }
+
     .container-fluid {
         padding-left: 15px;
         padding-right: 15px;
@@ -107,6 +111,11 @@ nav {
 
 @media (max-width: 768px) {
 
+
+    header#homepage-main {
+        background-attachment: scroll;
+    }
+
     .navbar-toggle {
         margin-top: 25px;
     }
@@ -171,7 +180,7 @@ nav {
 }
 
 header#homepage-main {
-  background: url(../images/stock-photo-52184990-girl-and-horse.jpg) no-repeat center center fixed; 
+  background: url(../images/stock-photo-52184990-girl-and-horse.jpg) no-repeat center center; 
   display: table;
   min-height: 100%;
   position: relative;
