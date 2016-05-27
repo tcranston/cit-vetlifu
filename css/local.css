@@ -37,6 +37,7 @@ nav {
   display: block;
   position: relative;
   width: 100%;
+  height: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -53,12 +54,11 @@ header#homepage-main {
   background: url(../images/stock-photo-52184990-girl-and-horse.jpg);
   background-attachment: fixed;
   background-repeat:no-repeat;
-  background-position-y: 50%;
   background-position-x: 50%;
   display: table;
-  min-height: 100%;
   position: relative;
   width: 100%;
+  height: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -243,12 +243,25 @@ footer {
     background-color: #294E92;
 }
 
+/* large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .hp_intro-padding {
+        padding-top: 250px !important;
+        padding-bottom: 500px !important;
+    }
+
+    header#homepage-main {
+      background-position-y: -120px !important;
+    }
+ }
+
 
 /* Small to larger devices  (tablets, 768px and up) */
 @media (min-width: 768px) {
 
     header#homepage-main {
         background-attachment: fixed;
+        background-position-y: -60px !important;
     }
 
     .container-fluid {
@@ -304,7 +317,7 @@ footer {
 
     .hp_intro-padding {
         padding-top: 200px;
-        padding-bottom: 400px;
+        padding-bottom: 380px;
     }
 
     .hp_intro-lead-in {
@@ -312,8 +325,8 @@ footer {
     }
 
     .intro-padding {
-        padding-top: 200px;
-        padding-bottom: 250px;
+        padding-top: 220px;
+        padding-bottom: 280px;
     }
 
     .intro-lead-in {
@@ -321,7 +334,6 @@ footer {
     }
 
 }
-
 
 
 
@@ -351,8 +363,8 @@ footer {
     }
 
     .hp_intro-padding {
-        padding-top: 170px;
-        padding-bottom: 130px;
+        padding-top: 250px;
+        padding-bottom: 250px;
     }
 
     .hp_intro-lead-in {
@@ -372,7 +384,13 @@ footer {
 
 @media (max-width: 650px) {
     header#homepage-main {
+        background-position-y: -50px !important;
         background-attachment: scroll !important;
+    }
+
+    .hp_intro-padding {
+        padding-top: 220px;
+        padding-bottom: 150px;
     }
 
     .standardpage-header {
