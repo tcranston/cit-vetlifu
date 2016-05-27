@@ -29,6 +29,220 @@ nav {
     content: "\2b";
 }
 
+.standardpage-header {
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  background-position-y: 40px;
+  background-position-x: 50%;
+  display: block;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+    /*
+    margin-left: -15px;
+    margin-right: -15px;*/
+    min-height: 200px;
+    overflow: hidden;
+}
+
+header#homepage-main {
+  background: url(../images/stock-photo-52184990-girl-and-horse.jpg);
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  background-position-y: 50%;
+  background-position-x: 50%;
+  display: table;
+  min-height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*header#homepage-main {
+    background-attachment: scroll;
+    background-image: url(../images/stock-photo-52184990-girl-and-horse.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding-top: 100px;
+    color: #fff;
+}*/
+
+.hp_intro-padding {
+    text-align: center;
+}
+
+
+.hp_intro-text {
+    display: block;
+    background-color: rgba(31, 31, 31, 0.62) !important;
+    border-color: rgba(31, 31, 31, 0.29) !important;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+.hp_intro-lead-in {
+    margin-bottom: 25px;
+    font-style: italic;
+    line-height: 40px;
+}
+
+.intro-padding {
+    text-align: center;
+}
+
+
+.intro-text {
+    display: block;
+    background-color: rgba(31, 31, 31, 0.62) !important;
+    border-color: rgba(31, 31, 31, 0.29) !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+}
+
+.intro-lead-in {
+    margin-bottom: 5px;
+    font-style: italic;
+    line-height: 40px;
+}
+
+.page_wrapper{
+    background-color: #fff;
+}
+
+.row {
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+}
+.italic{
+    font-style: italic;;
+}
+
+.margin20 {
+    margin:20px;
+}
+
+.width140 {
+    width: 140px;
+}
+
+.width160 {
+    width: 160px;
+}
+
+.profile-img, .hp-img-circle {
+    width: 200px;
+}
+
+
+.section-heading {
+    font-style: italic;
+    color: #777777;
+}
+
+footer {
+    font-size: 14px;
+}
+
+.footer-inner {
+    background-color: #1F3358;
+    color: #fff;
+    padding: 64px 20px;
+    display: block;
+    text-align: center;
+    font-weight: 300;
+}
+.footer-outter {
+    padding: 64px 32px;
+    color: rgba(255,255,255,.4);
+    display: block;
+    text-align: center;
+    font-weight: 100;
+    font-size: 10px;
+}
+
+#contact {
+    background-image: url(../images/map-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#contact .section-heading {
+    color: #fff;
+}
+
+#contact .form-group {
+    margin-bottom: 25px;
+}
+
+#contact .form-group input,
+#contact .form-group textarea {
+    padding: 20px;
+}
+
+#contact .form-group input.form-control {
+    height: auto;
+}
+
+#contact .form-group textarea.form-control {
+    height: 236px;
+}
+
+#contact .form-control:focus {
+    border-color: #1F3358;
+    box-shadow: none;
+}
+
+#contact::-webkit-input-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+#contact:-moz-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+#contact::-moz-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+#contact:-ms-input-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+#contact .btn {
+    color: #fff;
+    background-color: #1F3358;
+}
+
+#contact .btn:hover {
+    color: #fff;
+    background-color: #294E92;
+}
+
 
 /* Small to larger devices  (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -109,12 +323,9 @@ nav {
 }
 
 
+
+
 @media (max-width: 768px) {
-
-
-    header#homepage-main {
-        background-attachment: scroll;
-    }
 
     .navbar-toggle {
         margin-top: 25px;
@@ -159,212 +370,13 @@ nav {
 
 }
 
-.standardpage-header {
-  background-attachment: fixed;
-  background-repeat:no-repeat;
-  background-position-y: 40px;
-  background-position-x: 50%;
-  display: block;
-  position: relative;
-  width: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+@media (max-width: 650px) {
+    header#homepage-main {
+        background-attachment: scroll !important;
+    }
 
-    /*
-    margin-left: -15px;
-    margin-right: -15px;*/
-    min-height: 200px;
-    overflow: hidden;
+    .standardpage-header {
+        background-attachment: scroll !important;
+    }
 }
 
-header#homepage-main {
-  background: url(../images/stock-photo-52184990-girl-and-horse.jpg) no-repeat center center; 
-  display: table;
-  min-height: 100%;
-  position: relative;
-  width: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-/*header#homepage-main {
-    background-attachment: scroll;
-    background-image: url(../images/stock-photo-52184990-girl-and-horse.jpg);
-    background-position: center center;
-    background-size: cover;
-    padding-top: 100px;
-    color: #fff;
-}*/
-
-.hp_intro-padding {
-    text-align: center;
-}
-
-
-.hp_intro-text {
-    display: block;
-    background-color: rgba(31, 31, 31, 0.62) !important;
-    border-color: rgba(31, 31, 31, 0.29) !important;
-    padding-top: 25px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: white;
-}
-
-.hp_intro-lead-in {
-    margin-bottom: 25px;
-    font-style: italic;
-    line-height: 40px;
-}
-
-.intro-padding {
-    text-align: center;
-}
-
-
-.intro-text {
-	display: block;
-	background-color: rgba(31, 31, 31, 0.62) !important;
-	border-color: rgba(31, 31, 31, 0.29) !important;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    color: white;
-}
-
-.intro-lead-in {
-	margin-bottom: 5px;
-    font-style: italic;
-    line-height: 40px;
-}
-
-.page_wrapper{
-	background-color: #fff;
-}
-
-.row {
-	padding-top: 1.5em;
-	padding-bottom: 2em;
-}
-.italic{
-	font-style: italic;;
-}
-
-.margin20 {
-    margin:20px;
-}
-
-.width140 {
-	width: 140px;
-}
-
-.width160 {
-    width: 160px;
-}
-
-.profile-img, .hp-img-circle {
-    width: 200px;
-}
-
-
-.section-heading {
-	font-style: italic;
-    color: #777777;
-}
-
-footer {
-	font-size: 14px;
-}
-
-.footer-inner {
-	background-color: #1F3358;
-	color: #fff;
-	padding: 64px 20px;
-	display: block;
-	text-align: center;
-    font-weight: 300;
-}
-.footer-outter {
-	padding: 64px 32px;
-	color: rgba(255,255,255,.4);
-	display: block;
-	text-align: center;
-    font-weight: 100;
-    font-size: 10px;
-}
-
-#contact {
-    background-image: url(../images/map-image.png);
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-#contact .section-heading {
-    color: #fff;
-}
-
-#contact .form-group {
-    margin-bottom: 25px;
-}
-
-#contact .form-group input,
-#contact .form-group textarea {
-    padding: 20px;
-}
-
-#contact .form-group input.form-control {
-    height: auto;
-}
-
-#contact .form-group textarea.form-control {
-    height: 236px;
-}
-
-#contact .form-control:focus {
-    border-color: #1F3358;
-    box-shadow: none;
-}
-
-#contact::-webkit-input-placeholder {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    color: #bbb;
-}
-
-#contact:-moz-placeholder {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    color: #bbb;
-}
-
-#contact::-moz-placeholder {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    color: #bbb;
-}
-
-#contact:-ms-input-placeholder {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    color: #bbb;
-}
-
-#contact .btn {
-    color: #fff;
-    background-color: #1F3358;
-}
-
-#contact .btn:hover {
-    color: #fff;
-    background-color: #294E92;
-}
