@@ -2,7 +2,7 @@
 layout: homepage
 
 site_slogan_1: "Therapeutic ultrasound" 
-site_slogan_2: "An effective treatment for muscle and joint conditions in dogs, cats and horses" 
+site_slogan_2: "Relieving pain and increasing mobility in your dog, horse or cat." 
 
 lifu_images_first:
   - title: LIFU Machine
@@ -38,8 +38,9 @@ treatable_list_right:
 
 
 
-## What is Low Intensity Focused Ultrasound (Therapeutic Ultrasound)?
-Low Intesity Focused Ultrasound (LIFU) is a new generation of therapeutic ultrasound. Therapeutic ultrasound has been recognized as an effective treatment for soft tissue injuries for many years. Its benefits are to increase blood flow to tissue thus speeding up the healing process, decrease pain by reducing swelling and to gently massage the area relieving tension and softening scar tissue.
+## What is Low Intensity Focused Ultrasound?
+Low Intesity Focused Ultrasound (LIFU) is a new generation of therapeutic ultrasound. Therapeutic ultrasound has been recognized as an effective treatment for soft tissue injuries for many years. Its benefits are decrease pain by reducing swelling and the inflammatory response, increase blood flow to the affected site, thereby speeding up the healing process and to gently massage the area relieving tension and softening scar tissue.
+
 
 {::nomarkdown}  
 <br />
@@ -51,7 +52,7 @@ Low Intesity Focused Ultrasound (LIFU) is a new generation of therapeutic ultras
 {:/}  
 
 ## How does LIFU differ from conventional therapeutic ultrasound?
-LIFU is a lower frequency than conventional ultrasound (such as used for scanning babies), which allows the ultrasound beam to penetrate to deeper tissues. It has a pulsed and continuous setting allowing for both a thermal and non-thermal effect. The ultrasound beam is focused which allows for more targeted treatment of deep tissue areas aswell as allowing effective treatment of joint pathologies such as osteoarthritis.
+LIFU is a revolutionary technology that emits low frequency, focused ultrasound waves. A lower frequency than conventional therapeutic ultrasound allows the ultrasound waves to penetrate deeper. Focussing the waves, in contrast to scattered waves emitted by conventional machines, allows for more precise treatment of a problem area. Focussing the waves also allows for therapeutic levels to be reached actually within a joint. Thus LIFU not only helps with pain and inflammation within a joint caused by conditions such as osteoarthritis, but also with the associated muscular compensations that accompany such conditions.
 
 {::nomarkdown}  
 <br />
